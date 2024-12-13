@@ -1,0 +1,55 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>iniciar-sesion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12">
+          <ion-card>
+            <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+          </ion-card>
+          <ion-item>
+            <ion-label style="text-align: center;">Bienvenido</ion-label>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+  
+      <ion-row>
+        <ion-col size="12">
+          <ion-item>
+            <ion-icon name="lock" slot="start"></ion-icon>
+            <ion-input label="Usuario" labelPlacement="floating" placeholder="Enter text"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+  
+      <ion-row>
+        <ion-col size="12">
+          <ion-item>
+            <ion-icon name="lock" slot="start"></ion-icon>
+            <ion-input label="Contraseña" type = password labelPlacement="floating" placeholder="Enter text"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="12">
+          <ion-item>
+          <ion-icon name="lock" slot="start"></ion-icon>
+          <ion-checkbox>Recuerdame</ion-checkbox>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+  
+      <ion-row>
+        <ion-col size="12">
+          <ion-button expand="block" type="submit">Iniciar Sesión</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+</ion-content>
